@@ -8,8 +8,6 @@
 
 以下 URL を `style.json` の `sprite` の値にセットしてください。
 
-#### カラフル
-
 ```
 https://naogify.github.io/twemoji-sprites/twemoji
 ```
