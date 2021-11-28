@@ -4,9 +4,9 @@
 
 ドキュメント: [https://www.mapbox.com/mapbox-gl-js/style-spec/#root-sprite](https://www.mapbox.com/mapbox-gl-js/style-spec/#root-sprite)
 
-## アイコンについて
+## 使い方
 
-このサーバーでは以下のアイコンセットを提供しています。それぞれの URL を `style.json` の `sprite` の値にセットしてください。
+以下 URL を `style.json` の `sprite` の値にセットしてください。
 
 #### カラフル
 
