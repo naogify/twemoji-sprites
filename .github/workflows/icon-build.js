@@ -1,7 +1,7 @@
-var spritezero = require('/usr/local/lib/node_modules/@mapbox/spritezero');
 var fs = require('fs');
-var glob = require('glob');
 var path = require('path');
+var spritezero = require('/usr/local/lib/node_modules/@mapbox/spritezero');
+var glob = require('/usr/local/lib/node_modules/glob');
 
 const GITHUB_WORKSPACE = process.argv[2];
 
