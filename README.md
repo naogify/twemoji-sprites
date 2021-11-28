@@ -11,12 +11,12 @@
 #### カラフル
 
 ```
-https://sprites.geolonia.com/
+https://naogify.github.io/twemoji-sprites/twemoji
 ```
 
 プルリクエストや Issue はいつでも歓迎します。
 
-[https://github.com/geolonia/sprites.geolonia.com](https://github.com/geolonia/sprites.geolonia.com)
+[https://github.com/naogify/twemoji-sprites](https://github.com/naogify/twemoji-sprites)
 
 
 ## ライセンス
