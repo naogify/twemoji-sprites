@@ -14,13 +14,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-          
-      - name: Convert the YAML to GeoJSON
-        run: |
-          cd $GITHUB_WORKSPACE
-          npm install
-          npm run build
-          echo "charites" > .gitignore
 
       - name: Build Icons
         run: |
