@@ -9,7 +9,7 @@
 以下 URL を `style.json` の `sprite` の値にセットしてください。
 
 ```
-https://naogify.github.io/twemoji-sprites/twemoji
+https://naogify.github.io/twemoji-sprites/icons
 ```
 
 プルリクエストや Issue はいつでも歓迎します。
