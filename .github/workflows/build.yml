@@ -17,6 +17,7 @@ jobs:
 
       - name: Build Icons
         run: |
+          npm install -g @mapbox/spritezero
           cd $GITHUB_WORKSPACE
           node .github/workflows/icon-build.js $GITHUB_WORKSPACE
 
