@@ -8,15 +8,13 @@
 
 以下 URL を `style.json` の `sprite` の値にセットしてください。
 
-#### カラフル
-
 ```
-https://sprites.geolonia.com/
+https://naogify.github.io/twemoji-sprites/icons
 ```
 
 プルリクエストや Issue はいつでも歓迎します。
 
-[https://github.com/geolonia/sprites.geolonia.com](https://github.com/geolonia/sprites.geolonia.com)
+[https://github.com/naogify/twemoji-sprites](https://github.com/naogify/twemoji-sprites)
 
 
 ## ライセンス
