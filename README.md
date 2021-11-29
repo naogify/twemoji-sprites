@@ -19,7 +19,7 @@ https://naogify.github.io/emoji-style/
 https://naogify.github.io/twemoji-sprites/icons
 ```
 
-次に、style 内でアイコンを指定する場合は、絵文字の Unicode を **半角英数字**でクォーテーションで囲い、`icon-image` に指定してください。
+次に、style 内でアイコンを指定する場合は、絵文字の Unicode を **半角英数字**でダブルクォーテーションで囲い、`icon-image` に指定してください。
 
 ### 例
 
