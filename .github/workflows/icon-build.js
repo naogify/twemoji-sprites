@@ -22,8 +22,8 @@ const publicPath = GITHUB_WORKSPACE;
         file = `@${pxRatio}x`;
     }
 
-    var pngPath = path.join(publicPath, `twemoji${file}.png`);
-    var jsonPath = path.join(publicPath, `twemoji${file}.json`);
+    var pngPath = path.join(publicPath, `icons${file}.png`);
+    var jsonPath = path.join(publicPath, `icons${file}.json`);
 
     // Pass `true` in the layout parameter to generate a data layout
     // suitable for exporting to a JSON sprite manifest file.
