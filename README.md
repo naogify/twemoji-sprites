@@ -29,6 +29,8 @@ https://naogify.github.io/twemoji-sprites/icons
 icon-image: "1f68c"
 ```
 
+### Unicode の取得方法
+
 こちらの絵文字検索で使用したい絵文字を検索し、Unicode の 項目の `U+` 以外のテキストをコピーすることで値として指定できます。
 
 https://lets-emoji.com/emojisearch/
