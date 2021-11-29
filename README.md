@@ -1,6 +1,6 @@
 # twemoji-sprites
 
-これは、絵文字 [Twemoji](https://twemoji.twitter.com/) を地図アイコン(Mapbox GL JS)として配信しているアイコン用のサーバーです。
+これは 絵文字（[Twemoji](https://twemoji.twitter.com/)）を地図アイコン(Mapbox GL JS)として配信しているアイコン用のサーバーです。
 
 ドキュメント: [https://www.mapbox.com/mapbox-gl-js/style-spec/#root-sprite](https://www.mapbox.com/mapbox-gl-js/style-spec/#root-sprite)
 
