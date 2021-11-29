@@ -12,7 +12,7 @@
 https://naogify.github.io/twemoji-sprites/icons
 ```
 
-次に、style 内でアイコンを指定する場合は、絵文字の Unicode を **半角英数字**で、`icon-image` に指定してください。
+次に、style 内でアイコンを指定する場合は、絵文字の Unicode を **半角英数字**でクォーテーションで囲い、`icon-image` に指定してください。
 
 ### 例
 
@@ -22,8 +22,7 @@ https://naogify.github.io/twemoji-sprites/icons
 icon-image: "1f68c"
 ```
 
-こちらの絵文字検索で使用したい絵文字を検索し、Unicode の 項目をコピーし、`U+` 以外のテキストをコピーし半角英数字にすることで使用できます。
-指定する値は、クォーテーションで囲ってください。
+こちらの絵文字検索で使用したい絵文字を検索し、Unicode の 項目の `U+` 以外のテキストをコピーすることで値として指定できます。
 
 https://lets-emoji.com/emojisearch/
 
