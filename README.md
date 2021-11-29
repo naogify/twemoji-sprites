@@ -25,7 +25,7 @@ icon-image: "1f68c"
 こちらの絵文字検索で使用したい絵文字を検索し、Unicode の 項目をコピーし、`U+` 以外のテキストをコピーし半角英数字にすることで使用できます。
 指定する値は、クォーテーションで囲ってください。
 
-https://r12a.github.io/app-conversion/
+https://lets-emoji.com/emojisearch/
 
 
 ## ライセンス
