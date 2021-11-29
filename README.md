@@ -19,10 +19,11 @@ https://naogify.github.io/twemoji-sprites/icons
 🚌 をアイコンとして使用する。
 
 ```
-icon-image: 1f68c
+icon-image: "1f68c"
 ```
 
-こちらのコンバーターで、使用したい絵文字を入力し、Hex/UTF-32 の項目をコピーし、半角英数字にすることで使用できます。
+こちらの絵文字検索で使用したい絵文字を検索し、Unicode の 項目をコピーし、`U+` 以外のテキストをコピーし半角英数字にすることで使用できます。
+指定する値は、クォーテーションで囲ってください。
 
 https://r12a.github.io/app-conversion/
 
