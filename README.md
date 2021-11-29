@@ -39,9 +39,9 @@ https://lets-emoji.com/emojisearch/
 
 ## ライセンス
 
-このプロジェクトで同梱している各アイコンのライセンスはそれぞれの配布元で確認してください。
+アイコンのライセンス以下の通りです。
 
-- Twemoji - [https://twemoji.twitter.com/](https://twemoji.twitter.com/)
+- Twemoji - [https://twemoji.twitter.com/](https://twemoji.twitter.com/) ( CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/ )
 
 それ以外のソースコードは MIT ライセンスとします。
 
