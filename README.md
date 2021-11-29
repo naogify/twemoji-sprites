@@ -4,6 +4,11 @@
 
 ドキュメント: [https://www.mapbox.com/mapbox-gl-js/style-spec/#root-sprite](https://www.mapbox.com/mapbox-gl-js/style-spec/#root-sprite)
 
+## デモ
+
+https://naogify.github.io/emoji-style/
+
+
 ## 使い方
 
 以下 URL を `style.json` の `sprite` の値にセットしてください。
