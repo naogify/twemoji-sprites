@@ -2,8 +2,6 @@
 
 絵文字（[Twemoji](https://twemoji.twitter.com/)）を地図アイコン(Mapbox GL JS)として配信しているアイコン用のサーバーです。
 
-ドキュメント: [https://www.mapbox.com/mapbox-gl-js/style-spec/#root-sprite](https://www.mapbox.com/mapbox-gl-js/style-spec/#root-sprite)
-
 ## デモ
 
 |![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/142797/f2bbbe57-da57-ac0a-1439-3e48177627aa.png)|
