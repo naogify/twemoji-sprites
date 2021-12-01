@@ -19,7 +19,7 @@ jobs:
         run: |
           npm install -g @mapbox/spritezero glob
           cd $GITHUB_WORKSPACE
-          node .github/workflows/icon-build.js $GITHUB_WORKSPACE
+          node .github/workflows/bin/icon-build.js $GITHUB_WORKSPACE
 
       - name: Deploy the GeoJSON to `gh-pages`
         uses: peaceiris/actions-gh-pages@v3
