@@ -9,7 +9,6 @@
 |![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/142797/f2bbbe57-da57-ac0a-1439-3e48177627aa.png)|
 |:--|
 
-![スクリーンショット 2021-11-29 10 36 38](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/142797/f2bbbe57-da57-ac0a-1439-3e48177627aa.png)
 
 ### デモURL
 https://naogify.github.io/emoji-style/
