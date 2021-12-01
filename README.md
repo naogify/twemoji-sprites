@@ -42,18 +42,7 @@ https://raw.githubusercontent.com/naogify/twemoji-sprites/gh-pages/icons.json
 
 以下の絵文字や一部の絵文字は使用できません。ご了承ください。
 
-- #⃣
-- *⃣
-- 0⃣
-- 1⃣
-- 2⃣
-- 3⃣
-- 4⃣
-- 5⃣
-- 6⃣
-- 7⃣
-- 8⃣
-- 9⃣
+#⃣ *⃣ 0⃣ 1⃣ 2⃣ 3⃣ 4⃣ 5⃣ 6⃣ 7⃣ 8⃣ 9⃣
 
 Mac での表示確認はしていますが、Windows やスマートフォンでの表示確認はできておりません。  
 不具合がありましたら [Issue](https://github.com/naogify/twemoji-sprites/issues/new) にてご報告ください。
