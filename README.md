@@ -20,22 +20,43 @@ https://naogify.github.io/emoji-style/
 https://naogify.github.io/twemoji-sprites/icons
 ```
 
-次に、style 内でアイコンを指定する場合は、絵文字の Unicode を **半角英数字**でダブルクォーテーションで囲い、`icon-image` に指定してください。
+次に、style 内でアイコンを指定する場合は指定したい絵文字を `icon-image` に指定してください。
 
 ### 例
 
 🚌 をアイコンとして使用する。
 
 ```
-icon-image: "1f68c"
+icon-image: 🚌
 ```
 
-### Unicode の取得方法
+指定例はこちらのファイルをご参考ください。https://github.com/naogify/emoji-style/blob/main/layers/poi-bus.yml#L25
 
-こちらの絵文字検索で使用したい絵文字を検索し、Unicode の 項目の `U+` 以外のテキストをコピーすることで値として指定できます。
+### 使用可能な絵文字一覧
 
-https://lets-emoji.com/emojisearch/
+使用可能な絵文字一覧はこちらをご参考ください。
 
+https://raw.githubusercontent.com/naogify/twemoji-sprites/gh-pages/icons.json
+
+
+
+以下の絵文字や一部の絵文字は使用できません。ご了承ください。
+
+- #⃣
+- *⃣
+- 0⃣
+- 1⃣
+- 2⃣
+- 3⃣
+- 4⃣
+- 5⃣
+- 6⃣
+- 7⃣
+- 8⃣
+- 9⃣
+
+Mac での表示確認はしていますが、Windows やスマートフォンでの表示確認はできておりません。  
+不具合がありましたら [Issue](https://github.com/naogify/twemoji-sprites/issues/new) にてご報告ください。
 
 ## ライセンス
 
@@ -47,6 +68,6 @@ https://lets-emoji.com/emojisearch/
 
 ## コントリビュート
 
-プルリクエストや Issue はいつでも歓迎します。
+プルリクエストや [Issue](https://github.com/naogify/twemoji-sprites/issues/new) はいつでも歓迎します。
 
 [https://github.com/naogify/twemoji-sprites](https://github.com/naogify/twemoji-sprites)
