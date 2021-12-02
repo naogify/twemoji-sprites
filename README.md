@@ -59,3 +59,8 @@ Windows 環境では使用できる絵文字がかなり制限されてしまい
 プルリクエストや [Issue](https://github.com/naogify/twemoji-sprites/issues/new) はいつでも歓迎します。
 
 [https://github.com/naogify/twemoji-sprites](https://github.com/naogify/twemoji-sprites)
+
+## その他
+
+- 本サーバーは無償でだれでもご利用可能とさせていただきますが、実験的なプロジェクトにつき予告なくサービスを停止させていただくこともございますのであらかじめご了承ください。本番環境でご利用の際は、[Use this template] ボタンよりご自身のレポジトリにコピーしてお使いください。
+
