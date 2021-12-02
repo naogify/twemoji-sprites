@@ -6,8 +6,8 @@
   "bin": {
     "twemoji-sprites": "bin/rename-svg.js"
   },
-  "scripts": {
-  },
+  "type": "module",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/naogify/twemoji-sprites.git"
@@ -20,7 +20,9 @@
   "homepage": "https://github.com/naogify/twemoji-sprites#readme",
   "devDependencies": {
     "@mapbox/spritezero": "^8.0.0",
+    "dom-parser": "^0.1.6",
     "glob": "^7.2.0",
-    "twemoji": "^13.1.0"
+    "twemoji": "^13.1.0",
+    "unicode-emoji": "^2.3.0"
   }
 }

@@ -1,11 +1,13 @@
 #!/usr/bin/env node
+import fs from 'fs'
+import glob from 'glob';
+import path from 'path';
+import twemoji from 'twemoji';
+import * as unicodeEmoji from 'unicode-emoji';
+const emojiList = unicodeEmoji.getEmojis()
 
-const fs = require('fs')
-const glob = require('glob');
-const path = require('path');
-const twemoji = require('twemoji');
+const srcPath = path.join(path.resolve(), 'icons')
 
-const srcPath = path.join(__dirname, '..', 'icons')
 
 glob.sync(path.join(srcPath, `*.svg`))
   .map(function (f) {
@@ -21,16 +23,30 @@ glob.sync(path.join(srcPath, `*.svg`))
       utf16 = utf16 + twemoji.convert.fromCodePoint(codePoint)
     }
 
-    // 囲み文字 例:#️⃣、 豆腐文字などは削除
-    const excludes = ['20e3', 'e50a']
+    // 顔文字や人間系アイコン、シンボル系アイコンはスプライト軽量化のため削除
+    const excludesEmojiCategory = [
+      'face-emotion',
+      'person-people',
+      'symbols'
+    ]
+    const isEmojiOk = emojiList.find(emoji => emoji.emoji === utf16 && !excludesEmojiCategory.includes(emoji.category))
 
-    const isExcludeFileName = excludes.find(exclude => fileName.match(exclude));
+    if (isEmojiOk) {
 
-    if (!isExcludeFileName) {
-      const outputPath = f.replace(fileName, utf16)
-      
-      fs.renameSync(f, outputPath)
+      // 囲み文字 例:#️⃣、 豆腐文字などは削除
+      const excludes = ['20e3', 'e50a']
+      const isExcludeFileName = excludes.find(exclude => fileName.match(exclude));
+
+      if (!isExcludeFileName) {
+
+        const outputPath = f.replace(fileName, utf16)
+        fs.renameSync(f, outputPath)
+      } else {
+        fs.unlinkSync(f)
+      }
+
     } else {
       fs.unlinkSync(f)
     }
+
   });
