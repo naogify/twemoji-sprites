@@ -8,7 +8,7 @@ const GITHUB_WORKSPACE = process.argv[2];
 const svgsPath = path.resolve(GITHUB_WORKSPACE, 'icons');
 const publicPath = GITHUB_WORKSPACE;
 
-[1].forEach(function(pxRatio) {
+[1, 2].forEach(function(pxRatio) {
     var svgs = glob.sync(path.join(svgsPath, `*.svg`))
         .map(function(f) {
             return {
@@ -18,6 +18,9 @@ const publicPath = GITHUB_WORKSPACE;
         });
 
     var file = ''
+    if (pxRatio > 1) {
+        file = `@${pxRatio}x`;
+    }
 
     var pngPath = path.join(publicPath, `icons${file}.png`);
     var jsonPath = path.join(publicPath, `icons${file}.json`);
