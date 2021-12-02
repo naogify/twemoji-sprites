@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import spritezero from '/usr/local/lib/node_modules/@mapbox/spritezero';
-import glob from '/usr/local/lib/node_modules/glob';
+import spritezero from '@mapbox/spritezero';
+import glob from 'glob';
 
 const GITHUB_WORKSPACE = process.argv[2];
 
