@@ -38,9 +38,7 @@ icon-image: 🚌
 
 https://raw.githubusercontent.com/naogify/twemoji-sprites/gh-pages/icons.json
 
-以下の絵文字や、上記のURLを開き `` 豆腐文字になっている文字はご使用いただけません。ご了承ください。
-
-#⃣ *⃣ 0⃣ 1⃣ 2⃣ 3⃣ 4⃣ 5⃣ 6⃣ 7⃣ 8⃣ 9⃣
+顔文字や、人、記号系のアイコン及び、上記のURLを開き `` 豆腐文字になっている文字はご使用いただけません。ご了承ください。
 
 Windows 環境では使用できる絵文字がかなり制限されてしまいます。申し訳ありません。
 
