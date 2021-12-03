@@ -41,7 +41,8 @@ glob.sync(path.join(srcPath, `*.svg`))
 
       if (!isExcludeFileName) {
 
-        const syntax = emoji.unemojify(utf16);
+        let syntax = emoji.unemojify(utf16);
+        syntax = syntax.replace(/\:/g, '')
         const outputPath = f.replace(fileName, syntax);
         
         fs.renameSync(f, outputPath);
