@@ -4078,7 +4078,7 @@
       "type": "symbol",
       "source": "geolonia",
       "source-layer": "poi",
-      "minzoom": 13,
+      "minzoom": 15,
       "filter": [
         "all",
         [
@@ -4108,7 +4108,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "🚍",
+        "icon-image": "bus",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
@@ -4161,7 +4161,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "🏪",
+        "icon-image": "convenience_store",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
@@ -4214,7 +4214,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "🍴",
+        "icon-image": "fork_and_knife",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
@@ -4267,7 +4267,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "🏥",
+        "icon-image": "hospital",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
@@ -4320,7 +4320,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "🏫",
+        "icon-image": "school",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
@@ -4373,7 +4373,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "🏦",
+        "icon-image": "bank",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
@@ -4426,7 +4426,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "🚔",
+        "icon-image": "police_car",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
@@ -4479,7 +4479,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "☕",
+        "icon-image": "coffee",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
@@ -4532,7 +4532,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "🍷",
+        "icon-image": "wine_glass",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
@@ -4585,7 +4585,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "📕",
+        "icon-image": "closed_book",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
@@ -4638,7 +4638,7 @@
         ],
         "text-anchor": "top",
         "icon-anchor": "bottom",
-        "icon-image": "🌳",
+        "icon-image": "deciduous_tree",
         "icon-size": 0.8,
         "text-field": "{name}",
         "text-offset": [
