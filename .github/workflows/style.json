@@ -22,7 +22,7 @@
       "url": "https://tileserver.geolonia.com/v2/tiles.json?key=YOUR-API-KEY"
     }
   },
-  "sprite": "https://naogify.github.io/twemoji-sprites/v1/icons.json",
+  "sprite": "https://naogify.github.io/twemoji-sprites/v1/icons",
   "glyphs": "https://glyphs.geolonia.com/{fontstack}/{range}.pbf",
   "layers": [
     {
