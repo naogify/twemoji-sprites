@@ -15,16 +15,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-          
-      - name: Convert the YAML to GeoJSON
-        run: |
-          cd $GITHUB_WORKSPACE
-          npm install
-          npm run build
 
       - name: Build Icons
         run: |
           cd $GITHUB_WORKSPACE
+          npm install
           node .github/workflows/icon-build.js $GITHUB_WORKSPACE
 
       - name: Set index.html for preview
