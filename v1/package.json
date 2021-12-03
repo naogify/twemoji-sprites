@@ -1,0 +1,29 @@
+{
+  "name": "twemoji-sprites",
+  "version": "1.0.0",
+  "description": "絵文字（[Twemoji](https://twemoji.twitter.com/)）を地図アイコン(Mapbox GL JS)として配信しているアイコン用のサーバーです。",
+  "main": "index.js",
+  "bin": {
+    "twemoji-sprites": "bin/rename-svg.js"
+  },
+  "type": "module",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naogify/twemoji-sprites.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naogify/twemoji-sprites/issues"
+  },
+  "homepage": "https://github.com/naogify/twemoji-sprites#readme",
+  "devDependencies": {
+    "@mapbox/spritezero": "^8.0.0",
+    "glob": "^7.2.0",
+    "node-emoji": "^1.11.0",
+    "twemoji": "^13.1.0",
+    "unicode-emoji": "^2.3.0",
+    "axios": "^0.24.0"
+  }
+}
