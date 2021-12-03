@@ -1,4 +1,6 @@
-const axios = require('axios');
+#!/usr/bin/env node
+import axios from 'axios'
+
 const Axios = axios.create({
   headers: {'Cache-Control': 'no-cache'}
 });

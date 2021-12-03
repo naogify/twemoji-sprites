@@ -1,7 +1,8 @@
-var spritezero = require('@mapbox/spritezero');
-var fs = require('fs');
-var glob = require('glob');
-var path = require('path');
+#!/usr/bin/env node
+import fs from 'fs'
+import glob from 'glob';
+import path from 'path';
+import spritezero from '@mapbox/spritezero';
 
 const GITHUB_WORKSPACE = process.argv[2];
 
