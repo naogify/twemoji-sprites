@@ -21,6 +21,7 @@
   "devDependencies": {
     "@mapbox/spritezero": "^8.0.0",
     "glob": "^7.2.0",
+    "node-emoji": "^1.11.0",
     "twemoji": "^13.1.0",
     "unicode-emoji": "^2.3.0"
   }
