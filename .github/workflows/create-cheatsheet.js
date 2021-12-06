@@ -16,4 +16,8 @@ const html = `<!DOCTYPE html>
 </body>
 </html>`;
 
+if (fs.existsSync(fileName)) {
+  fs.unlinkSync(fileName)
+} 
+
 fs.writeFileSync(fileName, html);
