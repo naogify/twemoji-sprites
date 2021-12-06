@@ -28,6 +28,11 @@ jobs:
           mv .github/workflows/index.html ./index.html
           mv .github/workflows/style.json ./style.json
 
+      - name: Create cheat sheet for icon
+        run: |
+          cd $GITHUB_WORKSPACE
+          node create-cheatsheet.js
+
       - name: Generate slug
         id: generate_slug
         run: echo "##[set-output name=slug;]$(echo ${GITHUB_HEAD_REF#refs/heads/})"
