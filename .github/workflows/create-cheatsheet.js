@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from 'fs'
 import path from 'path';
+import glob from 'glob';
 
 const GITHUB_WORKSPACE = process.argv[2];
 const svgsPath = path.join(GITHUB_WORKSPACE, 'icons');
