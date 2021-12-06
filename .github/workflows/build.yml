@@ -31,7 +31,7 @@ jobs:
       - name: Create cheat sheet for icon
         run: |
           cd $GITHUB_WORKSPACE
-          node create-cheatsheet.js
+          node .github/workflows/create-cheatsheet.js
 
       - name: Generate slug
         id: generate_slug
