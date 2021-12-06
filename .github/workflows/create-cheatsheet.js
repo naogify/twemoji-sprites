@@ -3,8 +3,19 @@ import fs from 'fs'
 import path from 'path';
 
 const GITHUB_WORKSPACE = process.argv[2];
+const svgsPath = path.join(GITHUB_WORKSPACE, 'icons');
+var svgs = glob.sync(path.join(svgsPath, `*.svg`))
+.map(function(f) {
+    return {
+        svg: fs.readFileSync(f),
+        id: path.basename(f).replace('.svg', '')
+    };
+});
+
+console.log(svgs)
 
 const fileName = path.join(GITHUB_WORKSPACE, 'cheatsheet.html');
+
 const html = `<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -14,7 +25,6 @@ const html = `<!DOCTYPE html>
   <title>Twemoji Cheat Sheet</title>
 </head>
 <body>
-<div>hello</div>
 </body>
 </html>`;
 
