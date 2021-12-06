@@ -2,7 +2,9 @@
 import fs from 'fs'
 import path from 'path';
 
-const fileName = path.join(path.dirname(import.meta.url), 'cheatsheet.html');
+const GITHUB_WORKSPACE = process.argv[2];
+
+const fileName = path.join(GITHUB_WORKSPACE, 'cheatsheet.html');
 const html = `<!DOCTYPE html>
 <html lang="ja">
 <head>

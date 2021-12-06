@@ -6,7 +6,7 @@ import spritezero from '@mapbox/spritezero';
 
 const GITHUB_WORKSPACE = process.argv[2];
 
-const svgsPath = path.resolve(GITHUB_WORKSPACE, 'icons');
+const svgsPath = path.join(GITHUB_WORKSPACE, 'icons');
 const publicPath = GITHUB_WORKSPACE;
 
 [1, 2].forEach(function(pxRatio) {
