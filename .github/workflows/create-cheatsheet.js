@@ -2,7 +2,7 @@
 import fs from 'fs'
 import path from 'path';
 
-const fileName = path.join(path.dirname(), 'cheatsheet.html');
+const fileName = path.join(path.dirname(import.meta.url), 'cheatsheet.html');
 const html = `<!DOCTYPE html>
 <html lang="ja">
 <head>
