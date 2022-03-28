@@ -1,4 +1,0 @@
-ignore:
-  - "bench"
-  - "test"
-  - "fuzzer"
