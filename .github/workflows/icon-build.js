@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-import fs from 'fs';
+import fs from 'fs'
+import glob from 'glob';
 import path from 'path';
 import spritezero from '@mapbox/spritezero';
-import glob from 'glob';
 
 const GITHUB_WORKSPACE = process.argv[2];
 
-const svgsPath = path.resolve(GITHUB_WORKSPACE, 'icons');
+const svgsPath = path.join(GITHUB_WORKSPACE, 'icons');
 const publicPath = GITHUB_WORKSPACE;
 
 [1, 2].forEach(function(pxRatio) {
